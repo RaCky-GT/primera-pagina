@@ -1,0 +1,82 @@
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    background-image: url('img/background.png'); /* Agrega una imagen de fondo */
+    background-size: cover;
+}
+/*
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}*/
+
+header {
+    background-color: rgba(17, 20, 61, 0.7); /* Color de encabezado con transparencia */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    flex: 1; /* Permite que el contenido ocupe todo el espacio restante */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* Estilos para historias, poemas y cuentos */
+section {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #6B0F1A; /* Color de encabezado */
+    ; /* Color de título */
+}
+
+h3{
+    font-size: 20px;
+    color: #003366; /* Color de encabezado */
+    ;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: rgba(17, 20, 61, 0.7); /* Color de pie de página con transparencia */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
